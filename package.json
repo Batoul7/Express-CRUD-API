@@ -1,0 +1,14 @@
+{
+  "name": "task3_batoul_alibrahim",
+  "version": "1.0.0",
+  "main": "types.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Express CRUD API",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

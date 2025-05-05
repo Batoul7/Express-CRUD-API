@@ -1,0 +1,35 @@
+### GET All Products
+GET http://localhost:3000/api/products
+Content-Type: application/json
+
+### GET One Product (Replace :id with actual ID)
+GET http://localhost:3000/api/products/1
+Content-Type: application/json
+
+### Add a new Product
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Tablet",
+    "price": "150",
+    "quantity": 15
+}
+
+### Edit Product (Replace :id with actual ID)
+PUT http://localhost:3000/api/products/2
+Content-Type: application/json
+
+{
+    "name": "Smartphone Pro",
+    "price": "299",
+    "quantity": 30
+}
+
+### Delete Product (Replace :id with actual ID)
+DELETE http://localhost:3000/api/products/1
+Content-Type: application/json
+
+### Export products to a JSON file
+GET http://localhost:3000/api/products/export/json
+Content-Type: application/json
